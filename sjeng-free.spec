@@ -14,7 +14,6 @@ Source1:	sjeng.6.bz2
 Source2:	sjeng-README.bz2
 Patch0:		sjeng-11.2-cleanup.patch
 Patch1:		sjeng-11.2-fhs.patch
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	automake1.9
 BuildRequires:	gdbm-devel
 # use version here, in case opening books need to be rebuilt
