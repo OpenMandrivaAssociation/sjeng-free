@@ -1,5 +1,5 @@
 %define	version	11.2
-%define release	%mkrel 3
+%define release	%mkrel 5
 %define pkgname Sjeng-Free
 
 Summary:	Chess program that plays many variants
