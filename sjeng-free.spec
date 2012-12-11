@@ -67,3 +67,40 @@ rm -rf %{buildroot}
 %{_mandir}/man6/sjeng.6*
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 11.2-7mdv2010.0
++ Revision: 433894
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 11.2-6mdv2009.0
++ Revision: 260745
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 11.2-5mdv2009.0
++ Revision: 252496
+- rebuild
+- fix no-buildroot-tag
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 11.2-3mdv2008.1
++ Revision: 127301
+- kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Aug 04 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/04/06 22:20:48 (53026)
+- fix deps
+
+* Fri Aug 04 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/04/06 22:17:42 (53025)
+Import sjeng-free
+
+* Sun Jul 03 2005 Abel Cheung <deaddog@mandriva.org> 11.2-2mdk
+- Incorporate everything from Debian: manpage, patches etc.
+  Thanks to Lukas Geyer!
+- Also attempt to read opening book from system-wide location
+
+* Sat Jun 11 2005 Abel Cheung <deaddog@mandriva.org> 11.2-1mdk
+- First Mandriva package
+
