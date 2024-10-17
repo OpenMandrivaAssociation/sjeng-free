@@ -9,7 +9,7 @@ Release:	%{release}
 License:	GPL
 Group:		Games/Boards
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL:		http://sjeng.sourceforge.net/
+URL:		https://sjeng.sourceforge.net/
 Source0:	http://prdownloads.sourceforge.net/sjeng/%{pkgname}-%{version}.tar.bz2
 Source1:	sjeng.6.bz2
 Source2:	sjeng-README.bz2
